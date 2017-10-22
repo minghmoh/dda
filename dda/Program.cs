@@ -7,6 +7,7 @@ namespace dda
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
             Thread t = new Thread(() => { Thread.Sleep(3333); Console.WriteLine(23423); });
             t.Start();
 
